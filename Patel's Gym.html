@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patel's Gym</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('images/bg11.jpg');
+            
+            /* box-sizing: border-box; */
+        }
+
+        .header {
+            font-size: 18px;
+        }
+
+        .left {
+            /* border: 1px solid red; */
+            display: inline-block;
+            position: absolute;
+            top: 15px;
+            left: 13px;
+            width: 8%;
+            
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .left img {
+            width: 48px;
+            height: 48px;
+            /* position: relative;
+            /* left: 25%; */
+            /* filter: invert(100%); */
+            cursor: pointer;
+        }
+
+        .mid {
+            /* border: 1px solid rgb(0, 255, 34); */
+            display: block;
+            width: 43%;
+            margin: 25px auto;
+
+        }
+
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: white;
+            margin: 6px;
+            padding: 8px;
+
+        }
+
+        .navbar li a:hover {
+            color: rgb(184, 170, 170);
+
+        }
+
+        .navbar li a:active {
+            color: rgb(184, 170, 170);
+            text-decoration: underline;
+        }
+
+        .right {
+            /* border: 1px solid rgb(87, 5, 240); */
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            display: inline-block;
+
+        }
+
+        button {
+            margin: 5px;
+            padding: 2px;
+            cursor: pointer;
+            background-color: black;
+            color: white;
+            border: 2px solid grey;
+            border-radius: 6px;
+        }
+
+        .right button:hover {
+            background: rgb(39, 38, 38);
+
+        }
+
+        .container {
+            /* border: 2px solid; */
+            border-radius: 39px;
+            margin: 62px 51px;
+            padding: 4px 53px;
+            width: 28%;
+
+        }
+
+        .container h3 {
+            text-align: center;
+        }
+
+        /* .form{
+           
+        } */
+        .form input {
+            border: 1.5px solid white;
+            display: block;
+            margin: 10px 75px;
+            padding: 4px;
+            border-radius: 4px;
+            text-align: center;
+        }
+
+
+        .form button {
+            margin: 11px 128px;
+            height: 29px;
+            width: 62px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="images/logo.jpg" alt="Error">
+           <div> Patel's Gym</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li> <a href="#home"> Home</a></li>
+                <li> <a href="#services">Services</a></li>
+                <li> <a href="#Franchise">Franchise</a> </li>
+                <li> <a href="# Programs"> Programs</a></li>
+                <li> <a href="# Contact us"> Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button>Call us</button>
+            <button>Email us</button>
+
+        </div>
+        <div class="container">
+            <h3>Join the best gym of India</h3>
+            <form action="noaction.php">
+                <div class="form">
+                    <input type="text" name="" placeholder="Enter your name">
+                    <input type="number" name="" placeholder="Enter your age">
+                    <input type="text" name="" placeholder="Enter the name your state">
+                    <input type="text" name="" placeholder="Enter the name your city">
+                    <input type="text" name="" placeholder="Choose your gym">
+                    <button>Submit</button>
+                </div>
+            </form>
+        </div>
+
+    </header>
+</body>
+
+</html>
